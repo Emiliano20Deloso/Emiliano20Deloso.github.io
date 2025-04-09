@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <div>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </div>
+    <title>Git & Github: flujo de trabajo</title>
+</head>
+<body>
+    <style>
+        body {
+            background-color: #e9f5db;
+        }
+
+        h2 {
+                text-align: center;
+                color: #1b4332;
+                font-family: Arial, sans-serif;
+
+        }
+
+        p {     /* Holaaa !!! ... */           
+            border-radius: 5px;     
+            text-align: center;
+            background-color: white;
+            color: #40916c;
+        }
+
+        li {    /* Lista de comandos */
+            border-radius: 5px;
+            color: #40916c;
+            border: 1px solid lightcoral;
+            padding: 10px;
+        }
+        .boton-git{
+            background-color: greenyellow;
+            color: black;
+        }
+    </style>
+    <h2>Git & Github: flujo de trabajo</h2>
+    <p> Holaaa !!! 
+        Aquí podremos visualizar algunos de los comandos que más se necesitan 
+        para poder trabajar con Git. Recuerda que esto se hace desde:
+        <ul>    <!--Unordered List-->
+            <li><strong>Mac: Terminal</strong> Terminal</li> <!--  <li>: List Item-->
+            <li><strong>Windows:</strong> PowerShell</li>
+
+        </ul>
+    </p>
+    <p>
+        <ul>
+            <li><strong>git init:</strong> 
+                This command initializes a new Git repository in the current directory. It creates a hidden folder called .git, which contains all of the necessary metadata for your repository.
+            <li><strong>git clone:</strong>
+                This command clones an existing Git repository from a remote location (such as GitHub) to your local machine. The URL should point to the main branch of the repositor
+            <li><strong>git status:</strong>
+                This command shows the current state of the repository, including any untracked or modified files.</li>
+            <li><strong>git add:</strong>
+                This command adds a specific file to the staging area, which means that it is ready to be committed. You can also use git add . to add all changed files at once.
+            <li><strong>git commit -m <i>"mensaje"</i>:</strong>
+                This command commits the changes in the staging area with a message describing what was changed. The message should be brief but descriptive.
+            <li><strong>git log:</strong>
+                This command displays a history of all previous commits, along with their messages and author information.
+            <li><strong>git pull:</strong>
+                This command fetches the latest changes from the remote repository and merges them into your local repository.
+            <li><strong>git push:</strong>
+                This command pushes your local commits to the remote repository, making them available to other users who might be working on the project.</li>
+        </ul></p>
+    <footer>
+    <button class="boton-git"onclick="location.href=`HTML_blog.html`">Back</button>  <!--Botón para regresar usando JS-->
+    </footer>
+</body>
+</html>

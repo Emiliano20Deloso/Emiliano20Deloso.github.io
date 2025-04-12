@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(7, 41, 41);
+    height: 100vh;
+    margin: 0;
+}
+
+#gridContenedor {
+    display: grid;
+    height: 100%;
+
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    /*margin-bottom: 50px; */
+}
+
+div {
+    border: 2px solid black;
+    background-color: rgb(7, 41, 41);
+    padding: 10px;
+}
+
+#grid1 {
+    background-color: beige;
+    background-color: rgb(218, 42, 42);
+}
+
+#grid2 {
+    background-color: beige;
+    background-color: rgb(227, 73, 73);
+}
+
+#grid3 {
+    background-color: beige;
+    background-color: rgb(255, 179, 0);
+}
+
+#grid4 {
+    background-color: beige;
+    background-color: green;
+}
+
+#grid5 {
+    background-color: beige;
+    background-color: rgb(61, 156, 61);
+}
+
+#grid6 {
+    background-color: beige;
+    background-color: lightgreen;
+}
+
+

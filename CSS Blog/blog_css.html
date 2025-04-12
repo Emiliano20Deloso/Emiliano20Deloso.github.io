@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="blog_css.css" rel="stylesheet">
+    <title>Blog CSS</title>
+</head>
+<body>
+    <div class="header"> 
+        <div id="title"> <h1>CSS Blog</h1>
+            <h2>¿Qué es CSS?</h2>
+            <p>Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML
+                CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.</p>
+        </div>
+        <div id="title2"> 
+            <h2>¿Qué son los selectores?</h2>
+            <p>The CSS selectors module defines the patterns to select elements to which a set of CSS rules are then applied along with their specificity. 
+                The CSS selectors module provides us with more than 60 selectors and five combinators. Other modules provide additional pseudo-class selectors and pseudo-elements.
+                In CSS, selectors are patterns used to match, or select, the elements you want to style. Selectors are also used in JavaScript to enable selecting the DOM nodes to return as a NodeList.
+                Selectors, whether used in CSS or JavaScript, enable targeting HTML elements based on their type, attributes, current states, and even position in the DOM. 
+                Combinators allow you to be more precise when selecting elements by enabling selecting elements based on their relationship to other elements.</p> 
+        </div>
+        <div id="title3"> 
+            <h2>¿Qué son las propiedades?</h2>
+            <p>En CSS, las propiedades personalizadas (también conocidas como variables) son entidades definidas por autores de CSS que contienen valores específicos que se pueden volver a utilizar en un documento. 
+                Se establecen mediante la notación de propiedades personalizadas (por ejemplo, --main-color: black;) y se acceden mediante la función var() (por ejemplo, color: var (--main-color);).</p> 
+        </div>
+        <div id="title4"> 
+            <h2>¿Qué son los valores?</h2>
+            <p>Un valor en CSS es una forma de definir una colección de subvalores admitidos. Esto significa que si ves <color> como válido, no necesitas preguntarte cuáles de los diferentes tipos de valor de color puedes usar: palabras clave, valores hexadecimales, funciones rgb(), etc.
+                 Puedes usar cualquier valor <!--<color>--> disponible siempre que tu navegador lo admita.</p> 
+        </div>
+    </div>
+
+    <div class="imagen-fondo">
+        <h2>CSS Visual Background</h2>
+    </div>
+
+    <div class="imagen">
+        <img src="fondo.jpg" alt="Background de desarrollo web">
+    </div>
+
+<div><h1>Comparación de Selectores en CSS</h1></div>
+
+    <table>
+    <thead>
+        <tr>
+        <th>Característica</th>
+        <th>Selector por tipo</th>
+        <th>Selector por clase</th>
+        <th>Selector por ID</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <td>Símbolo en CSS</td>
+        <td>(ninguno)</td>
+        <td><code>.</code></td>
+        <td><code>#</code></td>
+        </tr>
+        <tr>
+        <td>Ejemplo de uso</td>
+        <td><code>p { color: red; }</code></td>
+        <td><code>.importante { color: red; }</code></td>
+        <td><code>#titulo { color: red; }</code></td>
+        </tr>
+        <tr>
+        <td>A quién afecta</td>
+        <td>Todos los elementos &lt;p&gt;</td>
+        <td>Elementos con esa clase</td>
+        <td>Un único elemento con ese ID</td>
+        </tr>
+        <tr>
+        <td>¿Puede repetirse?</td>
+        <td>Sí</td>
+        <td>Sí</td>
+        <td>No</td>
+        </tr>
+        <tr>
+        <td>Recomendado para...</td>
+        <td>Estilos genéricos</td>
+        <td>Estilos reutilizables</td>
+        <td>Estilo único</td>
+        </tr>
+        <tr>
+        <td>Especificidad</td>
+        <td>Baja</td>
+        <td>Media</td>
+        <td>Alta</td>
+        </tr>
+        <tr>
+        <td>Prioridad en conflicto</td>
+        <td>Menor</td>
+        <td>Intermedia</td>
+        <td>Mayor</td>
+        </tr>
+    </tbody>
+    </table>
+
+    <footer>
+        <p>Blog de Emiliano Delgadillo © Copyright 2025 </p>
+    </footer>
+    
+    
+</body>
+</html>

@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background-color: #1c1e2a;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .fila1 {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 10px;
+    flex: 1;
+  }
+
+  .fila2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    flex: 1;
+  }
+
+  .footer {
+    background-color: rgb(255, 179, 0);
+    height: 60px;
+  }
+
+  .naranja-top {
+    background-color: rgb(227, 73, 73);
+  }
+
+  .rojo-top {
+    background-color: rgb(218, 42, 42);
+  }
+
+  .verde-izq {
+    background-color: green;
+  }
+
+  .verde-der {
+    background-color: rgb(61, 156, 61);
+  }
